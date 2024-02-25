@@ -1,14 +1,14 @@
 *{
     color: white;
     text-decoration: none;
-    font-family:url(NetflixSans-Regular.otf), "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
-   
 }
 body{
     background-image:url(background.jpg);
+    font-family:url(NetflixSans-Regular.otf), "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+   
 
 }
-.nav #logo h1{
+h1{
     color:#e50914;
     font-size: 16px;
     
@@ -16,12 +16,12 @@ body{
 }
 
 .nav{
-    margin-top: 1.5rem;
+    margin-top: 1.25rem;
     position: relative;
     width: inherit;
-    margin-left: 1.5rem;
-    margin-right:1.5rem ;
-    margin-bottom: 1.5rem;
+    margin-left: 1.25rem;
+    margin-right:1.25rem ;
+    margin-bottom: 1.25rem;
 }
 #logo{
     
@@ -58,12 +58,15 @@ body{
     color:white;
     padding-top:200px;
     padding: 200px;
+    height: auto;
+    width: ;
     flex-basis: 50%;
     width: 100%;
     z-index: 1;
     border: 870*238;
 }
-.content h1{
+.content #h1{
+    color:white;
     font-size: 48px;
     font-weight:900;
 }
@@ -77,15 +80,28 @@ form{
 .content form h3{
     font-size: 1.25rem;
     font-weight: 400;
-    line-height: ;
+    
+   
+    
     
 }
 .content input{
     width: 350px;
-    height: 30px;
+    height: 50px;
     border: 369*56;
+    font-size: 24px;
+    padding: 24px 16px 24px 8px;
+    background-color: rgba(22, 21, 21, 0.824);
+    font-family:url(NetflixSans-Regular.otf), "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
 }
 .content button{
     width: 250px;
     border: 250*56;
+    height: 50px;
+    font-size: 16px;
+    background-color: #E50914;
+    
+}
+button{
+    font-family:url(NetflixSans-Regular.otf), "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
 }
