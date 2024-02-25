@@ -2,10 +2,37 @@
     color: white;
     text-decoration: none;
 }
+.banner{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    
+}
+.banner img{
+    max-width: 100%;
+    top: 0;
+    height: 100%;
+    transform: none;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    overflow: hidden;
+    
+}
+.banner-text{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow:hidden ;
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+}
 
 body {
-    background-image: url(background.jpg);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
     font-family: url(NetflixSans-Regular.otf), "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    
 }
 
 h1 {
@@ -72,6 +99,7 @@ h1 {
 .content #h1 {
     color: white;
     font-size: 48px;
+    font-display:initial;
     font-weight: 900;
 }
 
