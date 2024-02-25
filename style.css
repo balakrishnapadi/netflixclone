@@ -1,62 +1,69 @@
-*{
+* {
     color: white;
     text-decoration: none;
 }
-body{
-    background-image:url(background.jpg);
-    font-family:url(NetflixSans-Regular.otf), "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
-   
+
+body {
+    background-image: url(background.jpg);
+    font-family: url(NetflixSans-Regular.otf), "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+
 
 }
-h1{
-    color:#e50914;
+
+h1 {
+    color: #e50914;
     font-size: 16px;
-    
+
     font-weight: 900;
 }
 
-.nav{
+.nav {
     margin-top: 1.25rem;
     position: relative;
     width: inherit;
     margin-left: 1.25rem;
-    margin-right:1.25rem ;
+    margin-right: 1.25rem;
     margin-bottom: 1.25rem;
 }
-#logo{
-    
+
+#logo {
+
     margin-left: 170px;
 }
-#option{
+
+#option {
     margin-right: 190px;
     margin-top: 10px;
 }
-#option select{
+
+#option select {
     background-color: black;
     height: 32px;
-    width:100px;
-    border-radius:5px;
-    padding:px;
+    width: 100px;
+    border-radius: 5px;
+    padding: px;
     text-align: center;
     font-weight: 600;
-    
+
 }
-#option button{
+
+#option button {
     background-color: #E50914;
     border-width: 0px;
     border-radius: 5px;
     height: 32px;
-    width:70px;
-    font-size:15px;
-    font-weight:600;
-    margin-left:15px;
-    text-align:center;   
+    width: 70px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 15px;
+    text-align: center;
 }
-.content{
+
+.content {
     align-items: center;
     text-align: center;
-    color:white;
-    padding-top:200px;
+    color: white;
+    padding-top: 200px;
     padding: 200px;
     height: auto;
     width: ;
@@ -65,43 +72,60 @@ h1{
     z-index: 1;
     border: 870*238;
 }
-.content #h1{
-    color:white;
+
+.content #h1 {
+    color: white;
     font-size: 48px;
-    font-weight:900;
+    font-weight: 900;
 }
-.content p{
+
+.content p {
     font-size: 24px;
     font-weight: 400;
 }
-form{
+
+form {
     border: 806*102;
 }
-.content form h3{
+
+.content form h3 {
     font-size: 1.25rem;
     font-weight: 400;
     
-   
-    
-    
+
+
+
+
 }
-.content input{
+
+.content input {
     width: 350px;
     height: 50px;
     border: 369*56;
     font-size: 24px;
+    font-weight: 400;
+    border-width: 0.1em;
+    border-color: rgba(128, 128, 128, 0.7);
+    border-radius:5px;
     padding: 24px 16px 24px 8px;
-    background-color: rgba(22, 21, 21, 0.824);
-    font-family:url(NetflixSans-Regular.otf), "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    background-color: rgba(22, 22, 22, 0.7);;
+    font-family: url(NetflixSans-Regular.otf), "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
 }
-.content button{
+
+.content button {
     width: 250px;
     border: 250*56;
     height: 50px;
-    font-size: 16px;
+    font-style: initial;
+    overflow: visible;
+    font-size: 24px;
+    border-width:0;
+    font-weight: 500;
     background-color: #E50914;
-    
+    border-radius:5px;
+
 }
-button{
-    font-family:url(NetflixSans-Regular.otf), "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+
+button {
+    font-family: url(NetflixSans-Regular.otf), "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
 }
