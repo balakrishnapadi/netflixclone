@@ -1,0 +1,60 @@
+*{
+    color: white;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+
+}
+body{
+    background-image:url(background.jpg);
+
+}
+h1{
+    color:#e50914;
+    font-size: 16px;
+    
+    font-weight: 900;
+}
+.nav{
+    margin-top: 15px;
+}
+#logo{
+    
+    margin-left: 170px;
+}
+#option{
+    margin-right: 190px;
+    margin-top: 10px;
+}
+#option select{
+    background-color: black;
+    height: 32px;
+    width:100px;
+    border-radius:1px;
+    padding:px;
+    text-align: center;
+    font-weight: 600;
+    
+}
+#option button{
+    background-color: #E50914;
+    border-width: 0px;
+    border-radius: 5px;
+    height: 32px;
+    width:70px;
+    font-size:15px;
+    font-weight:600;
+    margin-left:15px;
+    text-align:center;
+    
+    
+    
+    
+    
+}
+.content{
+    text-align: center;
+    color:white;
+    font-size: 48px;
+    font-weight:900;
+    padding-top:200px;
+    
+}
